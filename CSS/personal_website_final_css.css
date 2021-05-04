@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+}
+
+header {
+    padding-top: 20px;
+    background-color: #FB4F14;
+}
+
+footer {
+    background-color: #FB4F14;
+}
+
+.flexbox {
+    display: flex;
+}
+
+@media screen and (max-width: 100%) {
+    .flexbox {
+        flex-direction: row;
+    }
+}
+  
+@media screen and (max-width: 800px) {
+    .flexbox {
+        flex-direction: column;
+    }
+}
+
+nav > a {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    width: 16%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Franklin Gothic Book;
+}
+
+#page_title {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+.border_div {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.left_align {
+    text-align: left;
+}
